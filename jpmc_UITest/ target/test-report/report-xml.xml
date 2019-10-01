@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.558561">
+<testcase classname="As a user, I want to validate news article from guardian news website" name="Launch guardian news websiite" time="22.126138">
+<system-out><![CDATA[Given I navigate to the guardian news website...............................passed
+When I click on the news link from the menu.................................passed
+And I select the headlines news.............................................passed
+Then I should be able to see the news page of that headline.................passed
+And I should be able to copy and save to file the headline of the news......passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I want to validate news article from guardian news website" name="To validate the headline news retrieved from guardian news with other resources on google" time="7.432423">
+<system-out><![CDATA[Given I navigate to google website..........................................passed
+When I search for the headline news from the guardian site..................passed
+Then I should see a list of other sources with similar news details.........passed
+And I am able to confirm that the news article Fake or not..................passed
+]]></system-out>
+</testcase>
+</testsuite>
